@@ -1,0 +1,22 @@
+﻿<Window x:Class="MainNotebookProject.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainNotebookProject"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="450" Width="800">
+    <Grid>
+        <Border>
+            
+        </Border>
+        <StackPanel VerticalAlignment="Center">
+            <ListBox x:Name="lb1" Margin="15">
+
+            </ListBox>
+
+            <Button Content="+" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Add_Item_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
